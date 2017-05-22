@@ -1,0 +1,97 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.tarjeta{
+	position: relative;
+}
+
+.fondo{
+	background-image: url(../img/fondo.jpg);
+	width: 600px;
+	height: 400px;
+	position: relative;
+}
+
+.logo{
+	background-image: url(../img/Laboratoria_Logo.png);
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 31px;
+	position: absolute;
+    left: 220px;
+    top: 30px;
+
+}
+
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-bottom: 400px solid #2E2E2D;
+    border-left: 300px solid transparent;
+    position: absolute;
+    left: 220px;
+    top: 0;
+}
+
+.rectangulo{
+    width: 300px;
+    height: 400px;
+    background: #2E2E2D;
+    position: absolute;
+    left: 520px;
+    top: 0;
+}
+
+.icono{
+	background-image: url(../img/Laboratoria_Isotipo-CodeAcademy.png);
+	background-repeat: no-repeat;
+    position: absolute;
+	width: 90px;
+	height: 90px;    
+    right: 0px;
+    bottom: 0px;
+
+}
+
+.nombre{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    position: absolute;
+    top: 30px;
+    right: 120px;
+}
+
+.trabajo{
+    color: #FB9200;
+    font-size: 0.8em;
+    position: absolute;
+    top: 130px;
+    right: 130px;	
+}
+
+.datos{
+    color: whiteSmoke;
+    font-size: 0.9em;	
+    font-weight: 300;    
+}
+
+.phono{
+    position: absolute;
+    top: 210px;
+    left: 430px;	
+}
+
+.email{
+    position: absolute;
+    top: 230px;
+    left: 430px;	
+}
+
+.direccion{
+    position: absolute;
+    top: 250px;
+    left: 430px;	
+}
